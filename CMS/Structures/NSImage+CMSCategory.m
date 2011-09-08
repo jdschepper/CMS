@@ -54,7 +54,7 @@
     return [imageData writeToFile:inPath atomically:NO];
 }
 
-- (ImageSize)GetFanartDims
+- (ImageSize)getFanartDims
 {
     int x = self.size.width;
     int y = self.size.height;
@@ -70,7 +70,7 @@
     return kSmall;
 }
 
-- (ImageSize)GetPosterDims
+- (ImageSize)getPosterDims
 {
     int x = self.size.width;
     int y = self.size.height;

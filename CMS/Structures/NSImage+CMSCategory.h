@@ -44,7 +44,7 @@ ImageQuality;
 @interface NSImage(CMSCategory)
 
 - (bool)saveTo:(NSString*)inPath withQuality:(ImageQuality)inQuality;
-- (ImageSize)GetFanartDims;
-- (ImageSize)GetPosterDims;
+- (ImageSize)getFanartDims;
+- (ImageSize)getPosterDims;
 
 @end
