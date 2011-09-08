@@ -7,59 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214D38F11418F5170006489C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
+		214D39081418F5830006489C /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214D39071418F5830006489C /* GHUnit.framework */; };
+		214D390A1418F5B80006489C /* GHUnit.framework in Copy GHUnit Framework */ = {isa = PBXBuildFile; fileRef = 214D39071418F5830006489C /* GHUnit.framework */; };
+		214D390C1418F61F0006489C /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 214D390B1418F61F0006489C /* GHUnitTestMain.m */; };
+		214D39141418F75D0006489C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214D39111418F7190006489C /* InfoPlist.strings */; };
 		21F561561418C90E005A9D01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
-		21F561681418C90E005A9D01 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561671418C90E005A9D01 /* SenTestingKit.framework */; };
-		21F561691418C90E005A9D01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
-		21F5616C1418C90E005A9D01 /* CMS.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561521418C90E005A9D01 /* CMS.dylib */; };
-		21F561721418C90E005A9D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F561701418C90E005A9D01 /* InfoPlist.strings */; };
 		21F561CF1418D8E9005A9D01 /* MediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561CD1418D8E9005A9D01 /* MediaInfo.h */; };
 		21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
-		21F561D11418D8E9005A9D01 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
 		21F561E11418D8F4005A9D01 /* Episode.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D31418D8F4005A9D01 /* Episode.h */; };
 		21F561E21418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
-		21F561E31418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
 		21F561E41418D8F4005A9D01 /* Fanart.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D51418D8F4005A9D01 /* Fanart.h */; };
 		21F561E51418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
-		21F561E61418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
 		21F561E71418D8F4005A9D01 /* ImageWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D71418D8F4005A9D01 /* ImageWrapper.h */; };
 		21F561E81418D8F4005A9D01 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
-		21F561E91418D8F4005A9D01 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
 		21F561EA1418D8F4005A9D01 /* Movie.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D91418D8F4005A9D01 /* Movie.h */; };
 		21F561EB1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
-		21F561EC1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
 		21F561ED1418D8F4005A9D01 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DB1418D8F4005A9D01 /* Person.h */; };
 		21F561EE1418D8F4005A9D01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
-		21F561EF1418D8F4005A9D01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
 		21F561F01418D8F4005A9D01 /* Set.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DD1418D8F4005A9D01 /* Set.h */; };
 		21F561F11418D8F4005A9D01 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
-		21F561F21418D8F4005A9D01 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
 		21F561F31418D8F4005A9D01 /* Thumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DF1418D8F4005A9D01 /* Thumb.h */; };
 		21F561F41418D8F4005A9D01 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
-		21F561F51418D8F4005A9D01 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
-		21F561F81418D910005A9D01 /* StructuresTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561F71418D910005A9D01 /* StructuresTest.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		21F5616A1418C90E005A9D01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21F561491418C90E005A9D01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21F561511418C90E005A9D01;
-			remoteInfo = CMS;
+/* Begin PBXCopyFilesBuildPhase section */
+		214D39091418F5B10006489C /* Copy GHUnit Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				214D390A1418F5B80006489C /* GHUnit.framework in Copy GHUnit Framework */,
+			);
+			name = "Copy GHUnit Framework";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		214D38EF1418F5170006489C /* CMS_Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMS_Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214D39071418F5830006489C /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnit.framework; sourceTree = "<group>"; };
+		214D390B1418F61F0006489C /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = "<group>"; };
+		214D390D1418F6F90006489C /* CMS_Tester-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CMS_Tester-Info.plist"; sourceTree = "<group>"; };
+		214D390E1418F6F90006489C /* CMS_Tester-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMS_Tester-Prefix.pch"; sourceTree = "<group>"; };
+		214D39121418F7190006489C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F561521418C90E005A9D01 /* CMS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CMS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F561551418C90E005A9D01 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		21F561581418C90E005A9D01 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		21F561591418C90E005A9D01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		21F5615A1418C90E005A9D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21F5615D1418C90E005A9D01 /* CMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMS-Prefix.pch"; sourceTree = "<group>"; };
-		21F561661418C90E005A9D01 /* CMSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F561671418C90E005A9D01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		21F5616F1418C90E005A9D01 /* CMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMSTests-Info.plist"; sourceTree = "<group>"; };
-		21F561711418C90E005A9D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F561CD1418D8E9005A9D01 /* MediaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaInfo.h; sourceTree = "<group>"; };
 		21F561CE1418D8E9005A9D01 /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		21F561D31418D8F4005A9D01 /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
@@ -81,21 +79,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		214D38EC1418F5170006489C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214D38F11418F5170006489C /* Cocoa.framework in Frameworks */,
+				214D39081418F5830006489C /* GHUnit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21F5614F1418C90E005A9D01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				21F561561418C90E005A9D01 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F561621418C90E005A9D01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21F561681418C90E005A9D01 /* SenTestingKit.framework in Frameworks */,
-				21F561691418C90E005A9D01 /* Cocoa.framework in Frameworks */,
-				21F5616C1418C90E005A9D01 /* CMS.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				21F561521418C90E005A9D01 /* CMS.dylib */,
-				21F561661418C90E005A9D01 /* CMSTests.octest */,
+				214D38EF1418F5170006489C /* CMS_Tester.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +121,8 @@
 		21F561541418C90E005A9D01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				214D39071418F5830006489C /* GHUnit.framework */,
 				21F561551418C90E005A9D01 /* Cocoa.framework */,
-				21F561671418C90E005A9D01 /* SenTestingKit.framework */,
 				21F561571418C90E005A9D01 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -162,6 +159,7 @@
 		21F5616D1418C90E005A9D01 /* CMSTests */ = {
 			isa = PBXGroup;
 			children = (
+				214D390B1418F61F0006489C /* GHUnitTestMain.m */,
 				21F561F61418D910005A9D01 /* StructuresTest.h */,
 				21F561F71418D910005A9D01 /* StructuresTest.m */,
 				21F5616E1418C90E005A9D01 /* Supporting Files */,
@@ -172,8 +170,9 @@
 		21F5616E1418C90E005A9D01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				21F5616F1418C90E005A9D01 /* CMSTests-Info.plist */,
-				21F561701418C90E005A9D01 /* InfoPlist.strings */,
+				214D39111418F7190006489C /* InfoPlist.strings */,
+				214D390D1418F6F90006489C /* CMS_Tester-Info.plist */,
+				214D390E1418F6F90006489C /* CMS_Tester-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +228,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		214D38EE1418F5170006489C /* CMS_Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214D39041418F5170006489C /* Build configuration list for PBXNativeTarget "CMS_Tester" */;
+			buildPhases = (
+				214D38EB1418F5170006489C /* Sources */,
+				214D38EC1418F5170006489C /* Frameworks */,
+				214D38ED1418F5170006489C /* Resources */,
+				214D39091418F5B10006489C /* Copy GHUnit Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMS_Tester;
+			productName = CMS_Tester;
+			productReference = 214D38EF1418F5170006489C /* CMS_Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
 		21F561511418C90E005A9D01 /* CMS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21F561791418C90E005A9D01 /* Build configuration list for PBXNativeTarget "CMS" */;
@@ -245,25 +262,6 @@
 			productName = CMS;
 			productReference = 21F561521418C90E005A9D01 /* CMS.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
-		};
-		21F561651418C90E005A9D01 /* CMSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21F5617C1418C90E005A9D01 /* Build configuration list for PBXNativeTarget "CMSTests" */;
-			buildPhases = (
-				21F561611418C90E005A9D01 /* Sources */,
-				21F561621418C90E005A9D01 /* Frameworks */,
-				21F561631418C90E005A9D01 /* Resources */,
-				21F561641418C90E005A9D01 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21F5616B1418C90E005A9D01 /* PBXTargetDependency */,
-			);
-			name = CMSTests;
-			productName = CMSTests;
-			productReference = 21F561661418C90E005A9D01 /* CMSTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -283,39 +281,31 @@
 			projectRoot = "";
 			targets = (
 				21F561511418C90E005A9D01 /* CMS */,
-				21F561651418C90E005A9D01 /* CMSTests */,
+				214D38EE1418F5170006489C /* CMS_Tester */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21F561631418C90E005A9D01 /* Resources */ = {
+		214D38ED1418F5170006489C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F561721418C90E005A9D01 /* InfoPlist.strings in Resources */,
+				214D39141418F75D0006489C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		21F561641418C90E005A9D01 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		214D38EB1418F5170006489C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				214D390C1418F61F0006489C /* GHUnitTestMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		21F5614E1418C90E005A9D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,37 +321,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21F561611418C90E005A9D01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21F561D11418D8E9005A9D01 /* MediaInfo.m in Sources */,
-				21F561E31418D8F4005A9D01 /* Episode.m in Sources */,
-				21F561E61418D8F4005A9D01 /* Fanart.m in Sources */,
-				21F561E91418D8F4005A9D01 /* ImageWrapper.m in Sources */,
-				21F561EC1418D8F4005A9D01 /* Movie.m in Sources */,
-				21F561EF1418D8F4005A9D01 /* Person.m in Sources */,
-				21F561F21418D8F4005A9D01 /* Set.m in Sources */,
-				21F561F51418D8F4005A9D01 /* Thumb.m in Sources */,
-				21F561F81418D910005A9D01 /* StructuresTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		21F5616B1418C90E005A9D01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21F561511418C90E005A9D01 /* CMS */;
-			targetProxy = 21F5616A1418C90E005A9D01 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		21F561701418C90E005A9D01 /* InfoPlist.strings */ = {
+		214D39111418F7190006489C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				21F561711418C90E005A9D01 /* en */,
+				214D39121418F7190006489C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -369,6 +335,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		214D39051418F5170006489C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSTests/CMS_Tester-Prefix.pch";
+				INFOPLIST_FILE = "CMSTests/CMS_Tester-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		214D39061418F5170006489C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMSTests/CMS_Tester-Prefix.pch";
+				INFOPLIST_FILE = "CMSTests/CMS_Tester-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		21F561771418C90E005A9D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -436,33 +434,18 @@
 			};
 			name = Release;
 		};
-		21F5617D1418C90E005A9D01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMS/CMS-Prefix.pch";
-				INFOPLIST_FILE = "CMSTests/CMSTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		21F5617E1418C90E005A9D01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMS/CMS-Prefix.pch";
-				INFOPLIST_FILE = "CMSTests/CMSTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		214D39041418F5170006489C /* Build configuration list for PBXNativeTarget "CMS_Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214D39051418F5170006489C /* Debug */,
+				214D39061418F5170006489C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		21F5614C1418C90E005A9D01 /* Build configuration list for PBXProject "CMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -479,14 +462,7 @@
 				21F5617B1418C90E005A9D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		21F5617C1418C90E005A9D01 /* Build configuration list for PBXNativeTarget "CMSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21F5617D1418C90E005A9D01 /* Debug */,
-				21F5617E1418C90E005A9D01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

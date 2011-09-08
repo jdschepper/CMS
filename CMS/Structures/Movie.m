@@ -157,7 +157,7 @@
 - (void)addSet:(NSString*)inSetName
 		 order:(int)inOrder
 {
-	NSString * theOrder = @"";
+	NSString * theOrder = [@"" autorelease];
 	if (inOrder > 0)
 	{
 		theOrder = [NSString stringWithFormat:@"%d", inOrder];
