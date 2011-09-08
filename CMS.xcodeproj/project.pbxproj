@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2119FAB21418FE01001AECE2 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
+		2119FAB31418FE01001AECE2 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
+		2119FAB41418FE01001AECE2 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
+		2119FAB51418FE01001AECE2 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
+		2119FAB61418FE01001AECE2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
+		2119FAB71418FE01001AECE2 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
+		2119FAB81418FE01001AECE2 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
+		2119FAB91418FE01001AECE2 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
+		2119FABA1418FE01001AECE2 /* StructuresTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561F71418D910005A9D01 /* StructuresTest.m */; };
 		214D38F11418F5170006489C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
 		214D39081418F5830006489C /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214D39071418F5830006489C /* GHUnit.framework */; };
 		214D390A1418F5B80006489C /* GHUnit.framework in Copy GHUnit Framework */ = {isa = PBXBuildFile; fileRef = 214D39071418F5830006489C /* GHUnit.framework */; };
@@ -74,7 +83,6 @@
 		21F561DE1418D8F4005A9D01 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
 		21F561DF1418D8F4005A9D01 /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
 		21F561E01418D8F4005A9D01 /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
-		21F561F61418D910005A9D01 /* StructuresTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructuresTest.h; sourceTree = "<group>"; };
 		21F561F71418D910005A9D01 /* StructuresTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructuresTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				214D390B1418F61F0006489C /* GHUnitTestMain.m */,
-				21F561F61418D910005A9D01 /* StructuresTest.h */,
 				21F561F71418D910005A9D01 /* StructuresTest.m */,
 				21F5616E1418C90E005A9D01 /* Supporting Files */,
 			);
@@ -232,10 +239,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214D39041418F5170006489C /* Build configuration list for PBXNativeTarget "CMS_Tester" */;
 			buildPhases = (
+				214D39091418F5B10006489C /* Copy GHUnit Framework */,
 				214D38EB1418F5170006489C /* Sources */,
 				214D38EC1418F5170006489C /* Frameworks */,
 				214D38ED1418F5170006489C /* Resources */,
-				214D39091418F5B10006489C /* Copy GHUnit Framework */,
 			);
 			buildRules = (
 			);
@@ -302,6 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2119FAB21418FE01001AECE2 /* Episode.m in Sources */,
+				2119FAB31418FE01001AECE2 /* Fanart.m in Sources */,
+				2119FAB41418FE01001AECE2 /* ImageWrapper.m in Sources */,
+				2119FAB51418FE01001AECE2 /* Movie.m in Sources */,
+				2119FAB61418FE01001AECE2 /* Person.m in Sources */,
+				2119FAB71418FE01001AECE2 /* Set.m in Sources */,
+				2119FAB81418FE01001AECE2 /* Thumb.m in Sources */,
+				2119FAB91418FE01001AECE2 /* MediaInfo.m in Sources */,
+				2119FABA1418FE01001AECE2 /* StructuresTest.m in Sources */,
 				214D390C1418F61F0006489C /* GHUnitTestMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMSTests/CMS_Tester-Prefix.pch";
 				INFOPLIST_FILE = "CMSTests/CMS_Tester-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -361,7 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMSTests/CMS_Tester-Prefix.pch";
 				INFOPLIST_FILE = "CMSTests/CMS_Tester-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

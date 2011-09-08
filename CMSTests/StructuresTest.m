@@ -18,8 +18,12 @@
  *
  */
 
-#import "StructuresTest.h"
+#import <GHUnit/GHUnit.h>
+
 #import "Movie.h"
+
+@interface StructuresTest : GHTestCase {}
+@end
 
 @implementation StructuresTest
 
@@ -32,23 +36,23 @@
 	[theMovie addSet:@"AnotherSet" order:0];
 	[theMovie addSet:@"FinalSet" order:4];
 	Set * theTestSet = [theMovie.sets objectAtIndex:1];
-	STAssertTrue([theMovie.sets count] == 3, @"Set Count should be 3, but is %d", [theMovie.sets count]);
-	STAssertEquals(theTestSet.name, @"AnotherSet", @"Set Name should be AnotherSet, but is %@", theTestSet.name);
-	STAssertEquals(theTestSet.order, @"", @"Test set order should be empty");
+	GHAssertTrue([theMovie.sets count] == 3, @"Adding sets, set count invalid");
+	GHAssertEqualStrings(theTestSet.name, @"AnotherSet", @"Adding sets, name invalid");
+	GHAssertEqualStrings(theTestSet.order, @"", @"Adding sets, order invalid");
 	
 	// Test Sets - Updating Order
 	[theMovie addSet:@"AnotherSet" order:5];
 	theTestSet = [theMovie.sets objectAtIndex:1];
-	STAssertTrue([theMovie.sets count] == 3, @"Set Count should be 3, but is %d", [theMovie.sets count]);
-	STAssertEquals(theTestSet.name, @"AnotherSet", @"Set Name should be AnotherSet, but is %@", theTestSet.name);
-//	STAssertEquals(theTestSet.order, @"5", @"Test set order should be 5, but is %@", theTestSet.order);
+	GHAssertTrue([theMovie.sets count] == 3, @"Updating sets, set count invalid");
+	GHAssertEqualStrings(theTestSet.name, @"AnotherSet", @"Updating sets, name invalid");
+	GHAssertEqualStrings(theTestSet.order, @"5", @"Updating sets, order invalid");
 
 	// Test Sets - Removing Sets
-//	[theMovie removeSet:@"AnotherSet"];
-//	theTestSet = [theMovie.sets objectAtIndex:1];
-//	STAssertTrue([theMovie.sets count] == 2, @"Set Count should be 2, but is %d", [theMovie.sets count]);
-//	STAssertEquals(theTestSet.name, @"FinalSet", @"Set Name should be FinalSet, but is %@", theTestSet.name);
-//	STAssertEquals(theTestSet.order, @"4", @"Test set order should be 4, but is %@", theTestSet.order);	
+	[theMovie removeSet:@"AnotherSet"];
+	theTestSet = [theMovie.sets objectAtIndex:1];
+	GHAssertTrue([theMovie.sets count] == 2, @"Removing sets, set count invalid");
+	GHAssertEqualStrings(theTestSet.name, @"FinalSet", @"Removing sets, name invalid");
+	GHAssertEqualStrings(theTestSet.order, @"4", @"Removing sets, order invalid");	
 }
 
 @end

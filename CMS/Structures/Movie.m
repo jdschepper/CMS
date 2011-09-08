@@ -178,7 +178,7 @@
 
 - (void)removeSet:(NSString*)inSetName
 {
-	[mSets filterUsingPredicate:[NSPredicate predicateWithFormat:@"name NOT like %@", inSetName]];
+	[mSets filterUsingPredicate:[NSPredicate predicateWithFormat:@"not name like %@", inSetName]];
 }
 
 @end
