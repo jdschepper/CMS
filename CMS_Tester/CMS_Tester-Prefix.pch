@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'CMS_Tester' target in the 'CMS_Tester' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
