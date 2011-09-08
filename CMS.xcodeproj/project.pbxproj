@@ -33,12 +33,12 @@
 		21F561581418C90E005A9D01 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		21F561591418C90E005A9D01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		21F5615A1418C90E005A9D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		21F5615D1418C90E005A9D01 /* CMS-Prefix.pch */ = {isa = PBXFileReference; path = "CMS-Prefix.pch"; sourceTree = "<group>"; };
-		21F5615E1418C90E005A9D01 /* CMS.h */ = {isa = PBXFileReference; path = CMS.h; sourceTree = "<group>"; };
+		21F5615D1418C90E005A9D01 /* CMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMS-Prefix.pch"; sourceTree = "<group>"; };
+		21F5615E1418C90E005A9D01 /* CMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMS.h; sourceTree = "<group>"; };
 		21F5615F1418C90E005A9D01 /* CMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMS.m; sourceTree = "<group>"; };
 		21F561661418C90E005A9D01 /* CMSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F561671418C90E005A9D01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		21F5616F1418C90E005A9D01 /* CMSTests-Info.plist */ = {isa = PBXFileReference; path = "CMSTests-Info.plist"; sourceTree = "<group>"; };
+		21F5616F1418C90E005A9D01 /* CMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMSTests-Info.plist"; sourceTree = "<group>"; };
 		21F561711418C90E005A9D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F561731418C90E005A9D01 /* CMSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSTests.h; sourceTree = "<group>"; };
 		21F561751418C90E005A9D01 /* CMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSTests.m; sourceTree = "<group>"; };
