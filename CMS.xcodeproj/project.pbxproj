@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2119FAB21418FE01001AECE2 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
 		2119FAB31418FE01001AECE2 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
-		2119FAB41418FE01001AECE2 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
+		2119FAB41418FE01001AECE2 /* NSImage+CMSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */; };
 		2119FAB51418FE01001AECE2 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
 		2119FAB61418FE01001AECE2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
 		2119FAB71418FE01001AECE2 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
@@ -28,8 +28,8 @@
 		21F561E21418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
 		21F561E41418D8F4005A9D01 /* Fanart.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D51418D8F4005A9D01 /* Fanart.h */; };
 		21F561E51418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
-		21F561E71418D8F4005A9D01 /* ImageWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D71418D8F4005A9D01 /* ImageWrapper.h */; };
-		21F561E81418D8F4005A9D01 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
+		21F561E71418D8F4005A9D01 /* NSImage+CMSCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */; };
+		21F561E81418D8F4005A9D01 /* NSImage+CMSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */; };
 		21F561EA1418D8F4005A9D01 /* Movie.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D91418D8F4005A9D01 /* Movie.h */; };
 		21F561EB1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
 		21F561ED1418D8F4005A9D01 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DB1418D8F4005A9D01 /* Person.h */; };
@@ -73,8 +73,8 @@
 		21F561D41418D8F4005A9D01 /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
 		21F561D51418D8F4005A9D01 /* Fanart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fanart.h; sourceTree = "<group>"; };
 		21F561D61418D8F4005A9D01 /* Fanart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fanart.m; sourceTree = "<group>"; };
-		21F561D71418D8F4005A9D01 /* ImageWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWrapper.h; sourceTree = "<group>"; };
-		21F561D81418D8F4005A9D01 /* ImageWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWrapper.m; sourceTree = "<group>"; };
+		21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+CMSCategory.h"; sourceTree = "<group>"; };
+		21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CMSCategory.m"; sourceTree = "<group>"; };
 		21F561D91418D8F4005A9D01 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		21F561DA1418D8F4005A9D01 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		21F561DB1418D8F4005A9D01 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -200,8 +200,8 @@
 				21F561D41418D8F4005A9D01 /* Episode.m */,
 				21F561D51418D8F4005A9D01 /* Fanart.h */,
 				21F561D61418D8F4005A9D01 /* Fanart.m */,
-				21F561D71418D8F4005A9D01 /* ImageWrapper.h */,
-				21F561D81418D8F4005A9D01 /* ImageWrapper.m */,
+				21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */,
+				21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */,
 				21F561D91418D8F4005A9D01 /* Movie.h */,
 				21F561DA1418D8F4005A9D01 /* Movie.m */,
 				21F561DB1418D8F4005A9D01 /* Person.h */,
@@ -224,7 +224,7 @@
 				21F561CF1418D8E9005A9D01 /* MediaInfo.h in Headers */,
 				21F561E11418D8F4005A9D01 /* Episode.h in Headers */,
 				21F561E41418D8F4005A9D01 /* Fanart.h in Headers */,
-				21F561E71418D8F4005A9D01 /* ImageWrapper.h in Headers */,
+				21F561E71418D8F4005A9D01 /* NSImage+CMSCategory.h in Headers */,
 				21F561EA1418D8F4005A9D01 /* Movie.h in Headers */,
 				21F561ED1418D8F4005A9D01 /* Person.h in Headers */,
 				21F561F01418D8F4005A9D01 /* Set.h in Headers */,
@@ -311,7 +311,7 @@
 			files = (
 				2119FAB21418FE01001AECE2 /* Episode.m in Sources */,
 				2119FAB31418FE01001AECE2 /* Fanart.m in Sources */,
-				2119FAB41418FE01001AECE2 /* ImageWrapper.m in Sources */,
+				2119FAB41418FE01001AECE2 /* NSImage+CMSCategory.m in Sources */,
 				2119FAB51418FE01001AECE2 /* Movie.m in Sources */,
 				2119FAB61418FE01001AECE2 /* Person.m in Sources */,
 				2119FAB71418FE01001AECE2 /* Set.m in Sources */,
@@ -329,7 +329,7 @@
 				21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */,
 				21F561E21418D8F4005A9D01 /* Episode.m in Sources */,
 				21F561E51418D8F4005A9D01 /* Fanart.m in Sources */,
-				21F561E81418D8F4005A9D01 /* ImageWrapper.m in Sources */,
+				21F561E81418D8F4005A9D01 /* NSImage+CMSCategory.m in Sources */,
 				21F561EB1418D8F4005A9D01 /* Movie.m in Sources */,
 				21F561EE1418D8F4005A9D01 /* Person.m in Sources */,
 				21F561F11418D8F4005A9D01 /* Set.m in Sources */,

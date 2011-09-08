@@ -21,6 +21,7 @@
 #import <GHUnit/GHUnit.h>
 
 #import "Movie.h"
+#import "NSImage+CMSCategory.h"
 
 @interface StructuresTest : GHTestCase {}
 @end
@@ -29,7 +30,7 @@
 
 - (void)testMovieClass
 {
-	Movie * theMovie = [[Movie alloc] init];
+	Movie * theMovie = [[[Movie alloc] init] autorelease];
 	
 	// Test Sets - Adding Sets
 	[theMovie addSet:@"SomeSet" order:1];
@@ -53,6 +54,18 @@
 	GHAssertTrue([theMovie.sets count] == 2, @"Removing sets, set count invalid");
 	GHAssertEqualStrings(theTestSet.name, @"FinalSet", @"Removing sets, name invalid");
 	GHAssertEqualStrings(theTestSet.order, @"4", @"Removing sets, order invalid");	
+    
+    // Rating test
+    [theMovie setRating:@"4,7"];
+    GHAssertEqualStrings(theMovie.rating, @"4.7", @"Rating decimal conversion failed");
+}
+
+- (void)testImageWrapperClass
+{
+    NSImage * theImage = [[[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ia.media-imdb.com/images/M/MV5BMTIyMTIxNjI5NF5BMl5BanBnXkFtZTcwNzQzNDM5MQ@@._V1._SY317_CR2,0,214,317_.jpg"]] autorelease];
+    GHAssertTrue([theImage isValid], @"Invalid image from IMDB URL");
+    GHAssertTrue(theImage.size.width == 214, @"Width mismatch");
+    GHAssertTrue([theImage saveTo:@"/Users/jds/Desktop/godfather.jpg" withQuality:kHigh], @"Saving failed");
 }
 
 @end

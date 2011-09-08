@@ -21,7 +21,6 @@
 #import <Cocoa/Cocoa.h>
 
 #import "MediaInfo.h"
-#import "ImageWrapper.h"
 
 @interface Episode : NSObject 
 {
@@ -35,10 +34,10 @@
 	NSString * mDirector;
 	NSMutableArray * mActors;
 	MediaInfo * mMediaInfo;
-	ImageWrapper * mPoster;
+	NSImage * mPoster;
 	NSString * mPosterURL;
 	NSString * mLocalFile;
-	ImageWrapper * mFanart;
+	NSImage * mFanart;
 }
 
 - (id)init;
@@ -54,9 +53,9 @@
 @property(readwrite, assign) NSString * director;
 @property(readwrite, assign) NSMutableArray * actors;
 @property(readwrite, assign) MediaInfo * mediaInfo;
-@property(readwrite, assign) ImageWrapper * poster;
+@property(readwrite, assign) NSImage * poster;
 @property(readwrite, assign) NSString * posterURL;
 @property(readwrite, assign) NSString * localFile;
-@property(readwrite, assign) ImageWrapper * fanart;
+@property(readwrite, assign) NSImage * fanart;
 
 @end
