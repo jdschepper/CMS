@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		21F561561418C90E005A9D01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
-		21F561601418C90E005A9D01 /* CMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F5615F1418C90E005A9D01 /* CMS.m */; };
 		21F561681418C90E005A9D01 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561671418C90E005A9D01 /* SenTestingKit.framework */; };
 		21F561691418C90E005A9D01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
 		21F5616C1418C90E005A9D01 /* CMS.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561521418C90E005A9D01 /* CMS.dylib */; };
 		21F561721418C90E005A9D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F561701418C90E005A9D01 /* InfoPlist.strings */; };
-		21F561741418C90E005A9D01 /* CMSTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 21F561731418C90E005A9D01 /* CMSTests.h */; };
-		21F561761418C90E005A9D01 /* CMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561751418C90E005A9D01 /* CMSTests.m */; };
+		21F561CF1418D8E9005A9D01 /* MediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561CD1418D8E9005A9D01 /* MediaInfo.h */; };
+		21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
+		21F561D11418D8E9005A9D01 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
+		21F561E11418D8F4005A9D01 /* Episode.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D31418D8F4005A9D01 /* Episode.h */; };
+		21F561E21418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
+		21F561E31418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
+		21F561E41418D8F4005A9D01 /* Fanart.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D51418D8F4005A9D01 /* Fanart.h */; };
+		21F561E51418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
+		21F561E61418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
+		21F561E71418D8F4005A9D01 /* ImageWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D71418D8F4005A9D01 /* ImageWrapper.h */; };
+		21F561E81418D8F4005A9D01 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
+		21F561E91418D8F4005A9D01 /* ImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* ImageWrapper.m */; };
+		21F561EA1418D8F4005A9D01 /* Movie.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D91418D8F4005A9D01 /* Movie.h */; };
+		21F561EB1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
+		21F561EC1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
+		21F561ED1418D8F4005A9D01 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DB1418D8F4005A9D01 /* Person.h */; };
+		21F561EE1418D8F4005A9D01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
+		21F561EF1418D8F4005A9D01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
+		21F561F01418D8F4005A9D01 /* Set.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DD1418D8F4005A9D01 /* Set.h */; };
+		21F561F11418D8F4005A9D01 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
+		21F561F21418D8F4005A9D01 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
+		21F561F31418D8F4005A9D01 /* Thumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DF1418D8F4005A9D01 /* Thumb.h */; };
+		21F561F41418D8F4005A9D01 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
+		21F561F51418D8F4005A9D01 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
+		21F561F81418D910005A9D01 /* StructuresTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561F71418D910005A9D01 /* StructuresTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +56,28 @@
 		21F561591418C90E005A9D01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		21F5615A1418C90E005A9D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21F5615D1418C90E005A9D01 /* CMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMS-Prefix.pch"; sourceTree = "<group>"; };
-		21F5615E1418C90E005A9D01 /* CMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMS.h; sourceTree = "<group>"; };
-		21F5615F1418C90E005A9D01 /* CMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMS.m; sourceTree = "<group>"; };
 		21F561661418C90E005A9D01 /* CMSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F561671418C90E005A9D01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		21F5616F1418C90E005A9D01 /* CMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMSTests-Info.plist"; sourceTree = "<group>"; };
 		21F561711418C90E005A9D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		21F561731418C90E005A9D01 /* CMSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSTests.h; sourceTree = "<group>"; };
-		21F561751418C90E005A9D01 /* CMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSTests.m; sourceTree = "<group>"; };
+		21F561CD1418D8E9005A9D01 /* MediaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaInfo.h; sourceTree = "<group>"; };
+		21F561CE1418D8E9005A9D01 /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
+		21F561D31418D8F4005A9D01 /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
+		21F561D41418D8F4005A9D01 /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
+		21F561D51418D8F4005A9D01 /* Fanart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fanart.h; sourceTree = "<group>"; };
+		21F561D61418D8F4005A9D01 /* Fanart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fanart.m; sourceTree = "<group>"; };
+		21F561D71418D8F4005A9D01 /* ImageWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWrapper.h; sourceTree = "<group>"; };
+		21F561D81418D8F4005A9D01 /* ImageWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWrapper.m; sourceTree = "<group>"; };
+		21F561D91418D8F4005A9D01 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		21F561DA1418D8F4005A9D01 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		21F561DB1418D8F4005A9D01 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		21F561DC1418D8F4005A9D01 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		21F561DD1418D8F4005A9D01 /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		21F561DE1418D8F4005A9D01 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
+		21F561DF1418D8F4005A9D01 /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
+		21F561E01418D8F4005A9D01 /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
+		21F561F61418D910005A9D01 /* StructuresTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructuresTest.h; sourceTree = "<group>"; };
+		21F561F71418D910005A9D01 /* StructuresTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructuresTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +144,8 @@
 		21F5615B1418C90E005A9D01 /* CMS */ = {
 			isa = PBXGroup;
 			children = (
-				21F5615E1418C90E005A9D01 /* CMS.h */,
-				21F5615F1418C90E005A9D01 /* CMS.m */,
+				21F561D21418D8F4005A9D01 /* Structures */,
+				21F561CC1418D8E9005A9D01 /* MediaInfo */,
 				21F5615C1418C90E005A9D01 /* Supporting Files */,
 			);
 			path = CMS;
@@ -126,8 +162,8 @@
 		21F5616D1418C90E005A9D01 /* CMSTests */ = {
 			isa = PBXGroup;
 			children = (
-				21F561731418C90E005A9D01 /* CMSTests.h */,
-				21F561751418C90E005A9D01 /* CMSTests.m */,
+				21F561F61418D910005A9D01 /* StructuresTest.h */,
+				21F561F71418D910005A9D01 /* StructuresTest.m */,
 				21F5616E1418C90E005A9D01 /* Supporting Files */,
 			);
 			path = CMSTests;
@@ -142,6 +178,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		21F561CC1418D8E9005A9D01 /* MediaInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21F561CD1418D8E9005A9D01 /* MediaInfo.h */,
+				21F561CE1418D8E9005A9D01 /* MediaInfo.m */,
+			);
+			path = MediaInfo;
+			sourceTree = "<group>";
+		};
+		21F561D21418D8F4005A9D01 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				21F561D31418D8F4005A9D01 /* Episode.h */,
+				21F561D41418D8F4005A9D01 /* Episode.m */,
+				21F561D51418D8F4005A9D01 /* Fanart.h */,
+				21F561D61418D8F4005A9D01 /* Fanart.m */,
+				21F561D71418D8F4005A9D01 /* ImageWrapper.h */,
+				21F561D81418D8F4005A9D01 /* ImageWrapper.m */,
+				21F561D91418D8F4005A9D01 /* Movie.h */,
+				21F561DA1418D8F4005A9D01 /* Movie.m */,
+				21F561DB1418D8F4005A9D01 /* Person.h */,
+				21F561DC1418D8F4005A9D01 /* Person.m */,
+				21F561DD1418D8F4005A9D01 /* Set.h */,
+				21F561DE1418D8F4005A9D01 /* Set.m */,
+				21F561DF1418D8F4005A9D01 /* Thumb.h */,
+				21F561E01418D8F4005A9D01 /* Thumb.m */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,6 +215,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F561CF1418D8E9005A9D01 /* MediaInfo.h in Headers */,
+				21F561E11418D8F4005A9D01 /* Episode.h in Headers */,
+				21F561E41418D8F4005A9D01 /* Fanart.h in Headers */,
+				21F561E71418D8F4005A9D01 /* ImageWrapper.h in Headers */,
+				21F561EA1418D8F4005A9D01 /* Movie.h in Headers */,
+				21F561ED1418D8F4005A9D01 /* Person.h in Headers */,
+				21F561F01418D8F4005A9D01 /* Set.h in Headers */,
+				21F561F31418D8F4005A9D01 /* Thumb.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F561721418C90E005A9D01 /* InfoPlist.strings in Resources */,
-				21F561741418C90E005A9D01 /* CMSTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F561601418C90E005A9D01 /* CMS.m in Sources */,
+				21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */,
+				21F561E21418D8F4005A9D01 /* Episode.m in Sources */,
+				21F561E51418D8F4005A9D01 /* Fanart.m in Sources */,
+				21F561E81418D8F4005A9D01 /* ImageWrapper.m in Sources */,
+				21F561EB1418D8F4005A9D01 /* Movie.m in Sources */,
+				21F561EE1418D8F4005A9D01 /* Person.m in Sources */,
+				21F561F11418D8F4005A9D01 /* Set.m in Sources */,
+				21F561F41418D8F4005A9D01 /* Thumb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F561761418C90E005A9D01 /* CMSTests.m in Sources */,
+				21F561D11418D8E9005A9D01 /* MediaInfo.m in Sources */,
+				21F561E31418D8F4005A9D01 /* Episode.m in Sources */,
+				21F561E61418D8F4005A9D01 /* Fanart.m in Sources */,
+				21F561E91418D8F4005A9D01 /* ImageWrapper.m in Sources */,
+				21F561EC1418D8F4005A9D01 /* Movie.m in Sources */,
+				21F561EF1418D8F4005A9D01 /* Person.m in Sources */,
+				21F561F21418D8F4005A9D01 /* Set.m in Sources */,
+				21F561F51418D8F4005A9D01 /* Thumb.m in Sources */,
+				21F561F81418D910005A9D01 /* StructuresTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
