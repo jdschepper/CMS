@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2114572F14209B1C0041341D /* Media.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2114572D14209B1C0041341D /* Media.xcdatamodeld */; };
+		211457321420A81C0041341D /* Fanart.h in Headers */ = {isa = PBXBuildFile; fileRef = 211457301420A81C0041341D /* Fanart.h */; };
+		211457331420A81C0041341D /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 211457311420A81C0041341D /* Fanart.m */; };
+		211457361420A81C0041341D /* Thumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 211457341420A81C0041341D /* Thumb.h */; };
+		211457371420A81C0041341D /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 211457351420A81C0041341D /* Thumb.m */; };
+		2114573A1420A81D0041341D /* Set.h in Headers */ = {isa = PBXBuildFile; fileRef = 211457381420A81D0041341D /* Set.h */; };
+		2114573B1420A81D0041341D /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 211457391420A81D0041341D /* Set.m */; };
+		211457461420A81D0041341D /* Genre.h in Headers */ = {isa = PBXBuildFile; fileRef = 211457441420A81D0041341D /* Genre.h */; };
+		211457471420A81D0041341D /* Genre.m in Sources */ = {isa = PBXBuildFile; fileRef = 211457451420A81D0041341D /* Genre.m */; };
+		2114574A1420A8700041341D /* Actor.h in Headers */ = {isa = PBXBuildFile; fileRef = 211457481420A8700041341D /* Actor.h */; };
+		2114574B1420A8700041341D /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 211457491420A8700041341D /* Actor.m */; };
+		2114574E1420A8A30041341D /* Movie.h in Headers */ = {isa = PBXBuildFile; fileRef = 2114574C1420A8A30041341D /* Movie.h */; };
+		2114574F1420A8A30041341D /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2114574D1420A8A30041341D /* Movie.m */; };
 		2119FAB21418FE01001AECE2 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
-		2119FAB31418FE01001AECE2 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
 		2119FAB41418FE01001AECE2 /* NSImage+CMSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */; };
-		2119FAB51418FE01001AECE2 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
-		2119FAB61418FE01001AECE2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
-		2119FAB71418FE01001AECE2 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
-		2119FAB81418FE01001AECE2 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
 		2119FAB91418FE01001AECE2 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
 		2119FABA1418FE01001AECE2 /* StructuresTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561F71418D910005A9D01 /* StructuresTest.m */; };
 		214D38F11418F5170006489C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F561551418C90E005A9D01 /* Cocoa.framework */; };
@@ -26,18 +34,8 @@
 		21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561CE1418D8E9005A9D01 /* MediaInfo.m */; };
 		21F561E11418D8F4005A9D01 /* Episode.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D31418D8F4005A9D01 /* Episode.h */; };
 		21F561E21418D8F4005A9D01 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D41418D8F4005A9D01 /* Episode.m */; };
-		21F561E41418D8F4005A9D01 /* Fanart.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D51418D8F4005A9D01 /* Fanart.h */; };
-		21F561E51418D8F4005A9D01 /* Fanart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D61418D8F4005A9D01 /* Fanart.m */; };
 		21F561E71418D8F4005A9D01 /* NSImage+CMSCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */; };
 		21F561E81418D8F4005A9D01 /* NSImage+CMSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */; };
-		21F561EA1418D8F4005A9D01 /* Movie.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561D91418D8F4005A9D01 /* Movie.h */; };
-		21F561EB1418D8F4005A9D01 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DA1418D8F4005A9D01 /* Movie.m */; };
-		21F561ED1418D8F4005A9D01 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DB1418D8F4005A9D01 /* Person.h */; };
-		21F561EE1418D8F4005A9D01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DC1418D8F4005A9D01 /* Person.m */; };
-		21F561F01418D8F4005A9D01 /* Set.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DD1418D8F4005A9D01 /* Set.h */; };
-		21F561F11418D8F4005A9D01 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561DE1418D8F4005A9D01 /* Set.m */; };
-		21F561F31418D8F4005A9D01 /* Thumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F561DF1418D8F4005A9D01 /* Thumb.h */; };
-		21F561F41418D8F4005A9D01 /* Thumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F561E01418D8F4005A9D01 /* Thumb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +53,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2114572E14209B1C0041341D /* Media.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Media.xcdatamodel; sourceTree = "<group>"; };
+		211457301420A81C0041341D /* Fanart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fanart.h; sourceTree = "<group>"; };
+		211457311420A81C0041341D /* Fanart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fanart.m; sourceTree = "<group>"; };
+		211457341420A81C0041341D /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
+		211457351420A81C0041341D /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
+		211457381420A81D0041341D /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		211457391420A81D0041341D /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
+		211457441420A81D0041341D /* Genre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Genre.h; sourceTree = "<group>"; };
+		211457451420A81D0041341D /* Genre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Genre.m; sourceTree = "<group>"; };
+		211457481420A8700041341D /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		211457491420A8700041341D /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		2114574C1420A8A30041341D /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		2114574D1420A8A30041341D /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		214D38EF1418F5170006489C /* CMS_Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMS_Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214D39071418F5830006489C /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnit.framework; sourceTree = "<group>"; };
 		214D390B1418F61F0006489C /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = "<group>"; };
@@ -71,18 +82,8 @@
 		21F561CE1418D8E9005A9D01 /* MediaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfo.m; sourceTree = "<group>"; };
 		21F561D31418D8F4005A9D01 /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
 		21F561D41418D8F4005A9D01 /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
-		21F561D51418D8F4005A9D01 /* Fanart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fanart.h; sourceTree = "<group>"; };
-		21F561D61418D8F4005A9D01 /* Fanart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fanart.m; sourceTree = "<group>"; };
 		21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+CMSCategory.h"; sourceTree = "<group>"; };
 		21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CMSCategory.m"; sourceTree = "<group>"; };
-		21F561D91418D8F4005A9D01 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
-		21F561DA1418D8F4005A9D01 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
-		21F561DB1418D8F4005A9D01 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		21F561DC1418D8F4005A9D01 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		21F561DD1418D8F4005A9D01 /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
-		21F561DE1418D8F4005A9D01 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
-		21F561DF1418D8F4005A9D01 /* Thumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumb.h; sourceTree = "<group>"; };
-		21F561E01418D8F4005A9D01 /* Thumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumb.m; sourceTree = "<group>"; };
 		21F561F71418D910005A9D01 /* StructuresTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructuresTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +108,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2114572C14209AD30041341D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2114572D14209B1C0041341D /* Media.xcdatamodeld */,
+				2114574C1420A8A30041341D /* Movie.h */,
+				2114574D1420A8A30041341D /* Movie.m */,
+				211457481420A8700041341D /* Actor.h */,
+				211457491420A8700041341D /* Actor.m */,
+				211457441420A81D0041341D /* Genre.h */,
+				211457451420A81D0041341D /* Genre.m */,
+				211457381420A81D0041341D /* Set.h */,
+				211457391420A81D0041341D /* Set.m */,
+				211457341420A81C0041341D /* Thumb.h */,
+				211457351420A81C0041341D /* Thumb.m */,
+				211457301420A81C0041341D /* Fanart.h */,
+				211457311420A81C0041341D /* Fanart.m */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		21F561471418C90E005A9D01 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +170,7 @@
 		21F5615B1418C90E005A9D01 /* CMS */ = {
 			isa = PBXGroup;
 			children = (
+				2114572C14209AD30041341D /* Core Data */,
 				21F561D21418D8F4005A9D01 /* Structures */,
 				21F561CC1418D8E9005A9D01 /* MediaInfo */,
 				21F5615C1418C90E005A9D01 /* Supporting Files */,
@@ -198,18 +220,8 @@
 			children = (
 				21F561D31418D8F4005A9D01 /* Episode.h */,
 				21F561D41418D8F4005A9D01 /* Episode.m */,
-				21F561D51418D8F4005A9D01 /* Fanart.h */,
-				21F561D61418D8F4005A9D01 /* Fanart.m */,
 				21F561D71418D8F4005A9D01 /* NSImage+CMSCategory.h */,
 				21F561D81418D8F4005A9D01 /* NSImage+CMSCategory.m */,
-				21F561D91418D8F4005A9D01 /* Movie.h */,
-				21F561DA1418D8F4005A9D01 /* Movie.m */,
-				21F561DB1418D8F4005A9D01 /* Person.h */,
-				21F561DC1418D8F4005A9D01 /* Person.m */,
-				21F561DD1418D8F4005A9D01 /* Set.h */,
-				21F561DE1418D8F4005A9D01 /* Set.m */,
-				21F561DF1418D8F4005A9D01 /* Thumb.h */,
-				21F561E01418D8F4005A9D01 /* Thumb.m */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -223,12 +235,13 @@
 			files = (
 				21F561CF1418D8E9005A9D01 /* MediaInfo.h in Headers */,
 				21F561E11418D8F4005A9D01 /* Episode.h in Headers */,
-				21F561E41418D8F4005A9D01 /* Fanart.h in Headers */,
 				21F561E71418D8F4005A9D01 /* NSImage+CMSCategory.h in Headers */,
-				21F561EA1418D8F4005A9D01 /* Movie.h in Headers */,
-				21F561ED1418D8F4005A9D01 /* Person.h in Headers */,
-				21F561F01418D8F4005A9D01 /* Set.h in Headers */,
-				21F561F31418D8F4005A9D01 /* Thumb.h in Headers */,
+				211457321420A81C0041341D /* Fanart.h in Headers */,
+				211457361420A81C0041341D /* Thumb.h in Headers */,
+				2114573A1420A81D0041341D /* Set.h in Headers */,
+				211457461420A81D0041341D /* Genre.h in Headers */,
+				2114574A1420A8700041341D /* Actor.h in Headers */,
+				2114574E1420A8A30041341D /* Movie.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2119FAB21418FE01001AECE2 /* Episode.m in Sources */,
-				2119FAB31418FE01001AECE2 /* Fanart.m in Sources */,
 				2119FAB41418FE01001AECE2 /* NSImage+CMSCategory.m in Sources */,
-				2119FAB51418FE01001AECE2 /* Movie.m in Sources */,
-				2119FAB61418FE01001AECE2 /* Person.m in Sources */,
-				2119FAB71418FE01001AECE2 /* Set.m in Sources */,
-				2119FAB81418FE01001AECE2 /* Thumb.m in Sources */,
 				2119FAB91418FE01001AECE2 /* MediaInfo.m in Sources */,
 				2119FABA1418FE01001AECE2 /* StructuresTest.m in Sources */,
 				214D390C1418F61F0006489C /* GHUnitTestMain.m in Sources */,
@@ -328,12 +336,14 @@
 			files = (
 				21F561D01418D8E9005A9D01 /* MediaInfo.m in Sources */,
 				21F561E21418D8F4005A9D01 /* Episode.m in Sources */,
-				21F561E51418D8F4005A9D01 /* Fanart.m in Sources */,
 				21F561E81418D8F4005A9D01 /* NSImage+CMSCategory.m in Sources */,
-				21F561EB1418D8F4005A9D01 /* Movie.m in Sources */,
-				21F561EE1418D8F4005A9D01 /* Person.m in Sources */,
-				21F561F11418D8F4005A9D01 /* Set.m in Sources */,
-				21F561F41418D8F4005A9D01 /* Thumb.m in Sources */,
+				2114572F14209B1C0041341D /* Media.xcdatamodeld in Sources */,
+				211457331420A81C0041341D /* Fanart.m in Sources */,
+				211457371420A81C0041341D /* Thumb.m in Sources */,
+				2114573B1420A81D0041341D /* Set.m in Sources */,
+				211457471420A81D0041341D /* Genre.m in Sources */,
+				2114574B1420A8700041341D /* Actor.m in Sources */,
+				2114574F1420A8A30041341D /* Movie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +491,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2114572D14209B1C0041341D /* Media.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2114572E14209B1C0041341D /* Media.xcdatamodel */,
+			);
+			currentVersion = 2114572E14209B1C0041341D /* Media.xcdatamodel */;
+			path = Media.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 21F561491418C90E005A9D01 /* Project object */;
 }
